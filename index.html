@@ -9,144 +9,183 @@
 
 <body>
 
-<header class="container header">
-  <h1>I Hua Tsai, Ph.D.</h1>
+<!-- Fixed top navigation -->
+<header class="topbar">
+  <div class="container topbar-inner">
+    <div class="brand">
+      <a class="brand-name" href="#">I Hua Tsai</a>
+      <span class="brand-sub">UCM · CS & Cybersecurity</span>
+    </div>
 
-  <p class="subtitle">
-    Assistant Professor<br>
-    Department of Computer Science and Cybersecurity<br>
-    University of Central Missouri
-  </p>
-
-  <p class="research-line">
-    Machine Learning • Smart Healthcare AI • ECG Signal Analysis • Cyber-Physical Systems • Agentic AI
-  </p>
-
-  <nav class="nav">
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#funding">Funding</a>
-    <a href="#publications">Publications</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#students">Students</a>
-    <a href="lab/">Lab</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <p class="links">
-    <a href="https://github.com/IHuaT" target="_blank">GitHub</a> ·
-    <a href="#">Google Scholar</a> ·
-    <a href="#">CV (PDF)</a>
-  </p>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#funding">Funding</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#students">Students</a>
+      <a href="lab/">Lab</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
-<main class="container">
+<!-- Page header (MIT-style) -->
+<section class="container pagehead" aria-label="Header">
+  <div class="head-grid">
+    <div class="head-photo">
+      <!-- Put your headshot at: assets/profile.jpg -->
+      <img src="assets/profile.jpg" alt="I Hua Tsai headshot">
+    </div>
 
-<section id="about">
-<h2>About</h2>
-<p>
-I am an Assistant Professor in the Department of Computer Science and Cybersecurity at the University of Central Missouri.
-My research focuses on AI-driven approaches for real-time physiological signal analysis,
-with particular emphasis on beat-by-beat ECG classification, smart healthcare systems,
-and efficient deep learning deployment.
-</p>
+    <div class="head-text">
+      <h1>I Hua Tsai, Ph.D.</h1>
+      <p class="subtitle">
+        Assistant Professor<br>
+        Department of Computer Science and Cybersecurity<br>
+        University of Central Missouri
+      </p>
+      <p class="research-line">
+        Machine Learning • Smart Healthcare AI • ECG Signal Analysis • Cyber-Physical Systems • Agentic AI
+      </p>
 
-<p>
-My work integrates transformer models, feature engineering, machine learning,
-and cyber-physical system design to enable reliable and scalable health monitoring.
-I am also expanding research into Agentic AI systems for healthcare portals and public-facing AI tools.
-</p>
+      <p class="links">
+        <a href="https://github.com/IHuaT" target="_blank" rel="noopener">GitHub</a> ·
+        <!-- Replace YOUR_SCHOLAR_ID when you have it -->
+        <a class="scholar" href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" rel="noopener">
+          Google Scholar
+        </a> ·
+        <a href="assets/cv.pdf" target="_blank" rel="noopener">CV (PDF)</a> ·
+        <a href="lab/">Smart Healthcare AI Lab</a>
+      </p>
+
+      <div class="quick">
+        <div><strong>Email:</strong> <a href="mailto:as0975161367@gmail.com">as0975161367@gmail.com</a></div>
+        <div><strong>Location:</strong> Lees Summit, MO (UCM)</div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="research">
-<h2>Research Areas</h2>
-<ul>
-<li><strong>AI for ECG & Cardiac Health:</strong> Beat-by-beat classification, transformer-based models, computational efficiency.</li>
-<li><strong>Smart Healthcare Systems:</strong> Real-time AI deployment, IoT integration, physiological sensing platforms.</li>
-<li><strong>Trustworthy & Applied AI:</strong> Privacy-aware AI interfaces, CodeBERT cybersecurity applications, deepfake detection.</li>
-</ul>
+<main class="container main">
+
+<section id="about" class="section">
+  <h2>About</h2>
+  <p>
+    I am an Assistant Professor in the Department of Computer Science and Cybersecurity at the University of Central Missouri.
+    My research focuses on AI-driven approaches for real-time physiological signal analysis, with particular emphasis on
+    beat-by-beat ECG classification, smart healthcare systems, and efficient deep learning deployment.
+  </p>
+  <p>
+    My work integrates transformer models, feature engineering, machine learning, and cyber-physical system design to enable
+    reliable and scalable health monitoring. I am also expanding research into Agentic AI systems for healthcare portals and
+    public-facing AI tools.
+  </p>
 </section>
 
-<section id="funding">
-<h2>Research Funding</h2>
-<ul>
-<li>
-<strong>Bridge Internal Grant – New Faculty Exploratory (2026–2027)</strong><br>
-Smart Healthcare Agentic AI Website and Phone Portal (PI) – $6,000
-</li>
-</ul>
+<section id="research" class="section">
+  <h2>Research Areas</h2>
+  <ul>
+    <li><strong>AI for ECG &amp; Cardiac Health:</strong> beat-by-beat classification, transformer-based models, computational efficiency.</li>
+    <li><strong>Smart Healthcare Systems:</strong> real-time AI deployment, IoT integration, physiological sensing platforms.</li>
+    <li><strong>Trustworthy &amp; Applied AI:</strong> privacy-aware AI interfaces, CodeBERT cybersecurity applications, deepfake detection.</li>
+  </ul>
 </section>
 
-<section id="publications">
-<h2>Selected Publications</h2>
-<ol>
-<li>
-Signal-Specific and Signal-Independent Features for Real-Time Beat-by-Beat ECG Classification with AI for Cardiac Abnormality Detection.
-<i>Electronics</i>, 2025.
-</li>
-
-<li>
-ECG Beat-By-Beat Classification Using Hybrid Transformer Neural Network Model in Smart Health.
-<i>IEEE EMBC</i>, 2024.
-</li>
-
-<li>
-Scalable and Upgradable AI for Detected Beat-By-Beat ECG Signals in Smart Health.
-<i>IEEE AIIoT</i>, 2023.
-</li>
-
-<li>
-Beat-by-Beat Classification of ECG Signals Using Machine Learning Algorithms for Real-time Predictive Cardiac Monitoring.
-<i>IEEE BIBM</i>, 2022.
-</li>
-</ol>
-<p>See Google Scholar for full list.</p>
+<section id="funding" class="section">
+  <h2>Research Funding</h2>
+  <ul>
+    <li>
+      <strong>Bridge Internal Grant – New Faculty Exploratory (2026–2027)</strong><br>
+      Smart Healthcare Agentic AI Website and Phone Portal (PI) – $6,000
+    </li>
+  </ul>
 </section>
 
-<section id="teaching">
-<h2>Teaching</h2>
-<ul>
-<li>CS 5710 – Machine Learning</li>
-<li>CS 5760 – Natural Language Processing</li>
-<li>CS 5720 – Neural Networks and Deep Learning</li>
-<li>CS 4700 – Artificial Intelligence</li>
-</ul>
+<section id="publications" class="section">
+  <h2>Selected Publications</h2>
+
+  <!-- Optional: if you add DOI text like "doi: 10.xxxx/xxxx", the script below will auto-link it -->
+  <ol class="pubs">
+    <li>
+      Signal-Specific and Signal-Independent Features for Real-Time Beat-by-Beat ECG Classification with AI for Cardiac Abnormality Detection.
+      <i>Electronics</i>, 2025. doi: 10.3390/electronics14132509
+    </li>
+    <li>
+      ECG Beat-By-Beat Classification Using Hybrid Transformer Neural Network Model in Smart Health.
+      <i>IEEE EMBC</i>, 2024.
+    </li>
+    <li>
+      Scalable and Upgradable AI for Detected Beat-By-Beat ECG Signals in Smart Health.
+      <i>IEEE AIIoT</i>, 2023.
+    </li>
+    <li>
+      Beat-by-Beat Classification of ECG Signals Using Machine Learning Algorithms for Real-time Predictive Cardiac Monitoring.
+      <i>IEEE BIBM</i>, 2022.
+    </li>
+  </ol>
+
+  <p class="note">
+    Full list: <a class="scholar" href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" rel="noopener">Google Scholar</a>.
+  </p>
 </section>
 
-<section id="students">
-<h2>Students & Recruitment</h2>
-<p>
-I am actively recruiting graduate and undergraduate students interested in:
-</p>
-<ul>
-<li>Machine Learning / Deep Learning (PyTorch, Transformers)</li>
-<li>Signal Processing & Physiological Data Analysis</li>
-<li>Agentic AI and Applied AI Systems</li>
-<li>Cybersecurity-focused AI</li>
-</ul>
-
-<p>
-If interested, please email me your CV and a short statement of research interests.
-</p>
+<section id="teaching" class="section">
+  <h2>Teaching</h2>
+  <ul>
+    <li>CS 5710 – Machine Learning</li>
+    <li>CS 5760 – Natural Language Processing</li>
+    <li>CS 5720 – Neural Networks and Deep Learning</li>
+    <li>CS 4700 – Artificial Intelligence</li>
+  </ul>
 </section>
 
-<section id="contact">
-<h2>Contact</h2>
-<p>
-Email: as0975161367@gmail.com<br>
-University of Central Missouri<br>
-Department of Computer Science and Cybersecurity
-</p>
+<section id="students" class="section">
+  <h2>Students &amp; Recruitment</h2>
+  <p>I am actively recruiting graduate and undergraduate students interested in:</p>
+  <ul>
+    <li>Machine Learning / Deep Learning (PyTorch, Transformers)</li>
+    <li>Signal Processing &amp; Physiological Data Analysis</li>
+    <li>Agentic AI and Applied AI Systems</li>
+    <li>Cybersecurity-focused AI</li>
+  </ul>
+  <p>If interested, please email me your CV and a short statement of research interests.</p>
+  <p><a class="btn" href="lab/">Visit the Smart Healthcare AI Lab recruiting page →</a></p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>
+    Email: <a href="mailto:as0975161367@gmail.com">as0975161367@gmail.com</a><br>
+    University of Central Missouri<br>
+    Department of Computer Science and Cybersecurity
+  </p>
 </section>
 
 </main>
 
 <footer class="container footer">
-© <script>document.write(new Date().getFullYear())</script> I Hua Tsai
+  © <span id="y"></span> I Hua Tsai
 </footer>
+
+<script>
+  // Year
+  document.getElementById("y").textContent = new Date().getFullYear();
+
+  // Auto-link DOIs inside publications (NSF/tenure-friendly polish)
+  // If a list item contains "doi: 10....", this converts it into a clickable link.
+  const doiRegex = /\bdoi:\s*(10\.\d{4,9}\/[-._;()\/:A-Z0-9]+)\b/i;
+  document.querySelectorAll(".pubs li").forEach(li => {
+    const m = li.textContent.match(doiRegex);
+    if (!m) return;
+    const doi = m[1];
+    li.innerHTML = li.innerHTML.replace(doiRegex, `doi: <a href="https://doi.org/${doi}" target="_blank" rel="noopener">${doi}</a>`);
+  });
+</script>
 
 </body>
 </html>
+
 
 
 
